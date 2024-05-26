@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html,body{
+    color: white;
+    background-color: #1b1b1b;
+    font-family: sans-serif;
+    margin-top: 40px;
+}
+
+/*esto sirve para centrar el contenido de la app en el medio*/
+
+.todo-app{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+/* este es como el cuadro donde va a estar contenido todo, tanto la lista
+como el form*/
+
+.todo-main-list{
+    width: 600px;
+    min-height: 500px;
+    background-color: aliceblue;
+    padding: 25px;
+    margin: 10px;
+    border-radius: 26px;
+}
+
+h1{
+    color: #1b1b1b;
+    font-size: 25px;
+    font-family: sans-serif;
+    text-align: center;
+    margin: 20px 0;
+}

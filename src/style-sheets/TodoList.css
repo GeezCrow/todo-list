@@ -1,0 +1,9 @@
+.todo-list-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+/*flex wrap sirve para que los todos se muestren en lineas
+diferentes*/

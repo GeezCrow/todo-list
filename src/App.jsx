@@ -1,13 +1,14 @@
 import { useState } from 'react'
-import MyTodoForm from './components/todo-form'
-import TodoList from './components/todo-list'
+import MyTodoForm from './components/TodoForm';
+import TodoList from './components/TodoList';
+import Todo from './components/Todo'
+import './App.css'
 
 function App(){
   return(
-    <div>
-      <div>
+    <div className='todo-app'>
+      <div className='todo-main-list'>
         <h1> To-Do List </h1>
-
         <TodoList/>
 
       </div>
@@ -16,3 +17,7 @@ function App(){
 }
 
 export default App
+
+/*        <Todo title="holass" detail="huashuas"/>
+        <Todo title="ekisde" detail="lol"/>
+        <Todo title="uwu" detail="wahahah"/>*/

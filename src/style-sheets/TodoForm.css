@@ -1,0 +1,45 @@
+.todo-form{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.todo-input-title{
+    width: 350px;
+    margin-bottom: 5px;
+    font-size: 18px;
+    background-color: white;
+    padding: 14px 32px 14px 16px ;
+    border-radius: 4px 0 0 4px;
+    border: 2px solid #45ca78;
+    outline: none;
+    border-radius: 8px;
+
+}
+
+.todo-input-detail{
+    width: 350px;
+    font-size: 18px;
+    background-color: white;
+    padding: 14px 32px 14px 16px ;
+    border-radius: 4px 0 0 4px;
+    border: 2px solid #45ca78;
+    outline: none;
+    border-radius: 8px;
+
+}
+
+.todo-button{
+    padding: 16px;
+    margin: 8px;
+    font-size: 18;
+    font-family: sans-serif;
+    border: none;
+    border-radius:  0 8px 8px 0;
+    outline: none;
+    background: #45ca78;
+    color: aliceblue;
+    text-transform: capitalize;
+}

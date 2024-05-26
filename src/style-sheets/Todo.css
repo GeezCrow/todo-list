@@ -1,0 +1,27 @@
+.todo-container {
+    width: 500px;
+    min-height: 65px;
+    background-color: #333;
+    margin: 5px auto;
+    padding:  8px 15px 8px 20px;
+    display: flex;
+    justify-content:  space-between;
+    border-radius: 15px;
+    align-items: center;
+
+}
+
+.todo-container.completed{
+    background-color: #45a4ca;
+    text-decoration: line-through;
+    
+}
+
+.todo-title{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+  .todo-detail {
+    font-size: 14px;
+  }
